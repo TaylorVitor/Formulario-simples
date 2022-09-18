@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form action="servidor.html" target="_blank">
+
+        <h1>Responda nosso formulárío</h1>
+        
+        <label for="Nome">Nome</label>
+        <br>
+        <input name="Nome" type="text" id="Nome" placeholder="Digite seu nome aqui">
+
+        <br><br>
+
+        <label for="Email">Email</label>
+        <br>
+        <input name="Email" type="email" id="Email" placeholder="Digite seu email">
+
+        <br><br>
+
+        <label for="Senha">Senha</label>
+        <br>
+        <input name="Senha" type="password" id="Senha" placeholder="Digite sua senha">
+
+        <br><br>
+
+        <label name="Qual é o seu gênero?">Qual é o seu gênero?</label>
+        <br>
+        <input name="Qual é o seu gênero?" type="radio" id="Masculino" value="Masculino"><label for="Masculino">Masculino</label>
+        <br>
+        <input name="Qual é o seu gênero?" type="radio" id="Feminino" value="Feminino"><label for="Feminino">Feminino</label>
+
+        <br><br>
+        
+        <label name="Habilidades">Habilidades</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="JavaScript" id="JavaScript"><label for="JavaScript">JavaScript</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="PHP" id="PHP"><label for="PHP">PHP</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="Python" id="Python"><label for="Python">Python</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="C++" id="C++"><label for="C++">C++</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="C#" id="C#"><label for="C#">C#</label>
+        <br>
+        <input name="Habilidades" type="checkbox" value="Java" id="Java"><label for="Java">Java</label>
+
+        <br><br>
+
+        <label>Qual seu doce favorito</label>
+        <br>
+
+        <select name="doce">
+            <option name="doce">Torrone</option>
+            <option name="doce">Chocolate</option>
+            <option name="doce">Rapadura</option>
+            <option name="doce">Merengue</option>
+            <option name="doce">Churros</option>
+        </select>
+
+        <br><br>
+
+        <label>Qual é o seu celular?</label>
+        <br>
+        <select name="Celular">
+            <optgroup label="LG">
+                <option>K11</option>
+                <option>K10</option>
+                <option>K8</option>
+            </optgroup>
+
+            <optgroup label="Samsung">
+                <option>A51</option>
+                <option>A52</option>
+                <option>A72</option>
+            </optgroup>
+
+            <optgroup label="Apple">
+                <option>Iphone X</option>
+                <option>Iphone 11</option>
+                <option>Iphone 12</option>
+                <option>Iphone 13</option>
+            </optgroup>
+
+            <optgroup label="Moto">
+                <option>Moto G</option>
+                <option>Moto E</option>
+                <option>Moto G8</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <label for="País">Qual o seu país?</label>
+        <br>
+        <input list="País" type="list" placeholder="Digite seu país">
+        <datalist name="País" id="País">
+            <option value="Alemanha">Alemanha</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Belgica">Belgica</option>
+            <option value="Croacia">Croacia</option>
+            <option value="Costa rica">Costa rica</option>
+            <option value="Nigeria">Nigeria</option>
+        </datalist>
+            
+        <br><br>
+
+        <label>Escreva sua mensagem aqui</label>
+        <br>
+        <textarea name="Digite sua mensagem" cols="70" rows="10"></textarea>
+
+        <br><br>
+
+        <button>Enviar</button>
+
+    </form>
+</body>
+</html>
